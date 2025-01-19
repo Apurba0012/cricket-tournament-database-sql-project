@@ -12,7 +12,7 @@ The database schema includes the following tables:
     *   `player_name` (varchar(50))
     *   `date_of_birth` (date)
     *   `player_category` (enum('Bowler', 'Batsman', 'Allrounder'))
-    *   `batting_or_bowling_style` (enum('Right Handed', 'Left Handed', '360 Degree'))
+    *   `batting_or_bowling_style` (enum('Right Handed', 'Left Handed', '360 Degree'))         
     *   `country_name` (varchar(50))
 
 *   **batsman:** Stores specific batsman statistics.
@@ -105,7 +105,7 @@ This database enables the following functions:
 
 ## Technologies Used
 
-*   SQL (Likely MySQL, PostgreSQL, or other relational database management system)
+*   SQL (Likely MySQL database management system)
 
 ## Further Development
 
